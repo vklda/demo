@@ -9,18 +9,13 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.gitgub.vklda.demo</groupId>
+    <groupId>com.github.vklda.demo</groupId>
     <artifactId>demo</artifactId>
-    <version>0.0.1</version>
+    <version>1.0</version>
+
     <name>demo</name>
-    <description>Demo project</description>
-    <distributionManagement>
-        <repository>
-            <id>demo</id>
-            <name>demo</name>
-            <url>https://maven.pkg.github.com/vklda/demo</url>
-        </repository>
-    </distributionManagement>
+
+    <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>11</java.version>
     </properties>
@@ -37,6 +32,14 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>demo</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/vklda/demo</url>
+        </repository>
+    </distributionManagement>
+
     <build>
         <plugins>
             <plugin>
@@ -44,6 +47,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+
     </build>
 
 </project>
