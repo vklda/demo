@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.github.vklda.demo</groupId>
+    <groupId>com.github.vklda</groupId>
     <artifactId>demo</artifactId>
     <version>1.0</version>
 
@@ -34,7 +34,7 @@
 
     <distributionManagement>
         <repository>
-            <id>demo</id>
+            <id>GitHub</id>
             <name>GitHub Packages</name>
             <url>https://maven.pkg.github.com/vklda/demo</url>
         </repository>
